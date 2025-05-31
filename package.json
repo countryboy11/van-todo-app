@@ -2,7 +2,7 @@
   "name": "my-todo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://countryboy11.github.io/van-todo-app/",
+  "homepage": "https://github.com/countryboy11/van-todo-app.git",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
