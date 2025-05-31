@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+*React Todo List App
+-A simple and intuitive Todo List application built with React, allowing users to add, manage, and track their daily tasks. This project demonstrates fundamental React concepts including state management with useState, component-based architecture, and handling user interactions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Features
+-Add New Todos: Quickly add new tasks to your list.
+-Display Todos: View all your pending and completed tasks.
+-Mark as Completed: Toggle the completion status of a todo item using a checkbox.
+-Delete Todos: Remove tasks you no longer need.
+-Responsive Design: Basic styling ensures a decent look on various screen sizes.
 
-## Available Scripts
+*Live Demo
+-You can see the live application hosted on GitHub Pages here:
+https://countryboy11.github.io/van-todo-app
 
-In the project directory, you can run:
+*Technologies Used
+-React: A JavaScript library for building user interfaces.
+-HTML5: Structure of the application.
+-CSS3: Styling of the application.
+-gh-pages: For deploying the React app to GitHub Pages.
 
-### `npm start`
+*Getting Started
+-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*Prerequisites
+-You need to have Node.js and npm (Node Package Manager) installed on your system.
+Node.js: Download and Install Node.js (which includes npm).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Installation
+-Clone the repository:
+(git clone https://github.com/countryboy11/van-todo-app.git)
 
-### `npm test`
+*Navigate into the project directory:
+(cd van-todo-app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Install dependencies:
+(npm install)
 
-### `npm run build`
+*Running the Application Locally
+-After installation, you can run the app in development mode:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+(npm start)
+-This will open your application in your default browser at http://localhost:3000. The page will reload if you make edits. You will also see any lint errors in the console.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Project Structure
+van-todo-app/
+├── public/                # Public assets (e.g., index.html)
+├── src/
+│   ├── App.css            # Main application styles
+│   ├── App.js             # Main application component
+│   ├── TodoList.jsx       # The core Todo List component
+│   └── index.js           # React entry point
+├── .gitignore             # Specifies intentionally untracked files
+├── package.json           # Project metadata and dependencies
+├── README.md              # This file
+└── ...
+*Deployment
+-This application is set up for easy deployment to GitHub Pages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Ensure homepage is set in package.json:
+-Verify that your package.json contains the correct homepage URL, pointing to your GitHub Pages site:
 
-### `npm run eject`
+package.json
+"homepage": "https://countryboy11.github.io/van-todo-app",
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Deploy command:
+-Run the following command to build the app and deploy it to the gh-pages branch:
+(npm run deploy)
+-This command will first build the production-ready version of your app into the build folder and then push it to a gh-pages branch on your GitHub repository.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*Configure GitHub Pages:
+-After deployment, go to your GitHub repository settings, navigate to "Pages", and ensure the source branch is set to gh-pages and the folder to / (root).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*Contributing
+-Feel free to fork this repository, make improvements, and submit pull requests. Any contributions are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*License
+-This project is open source and available under the MIT License.
