@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/van-todo-app/static/css/main.14266eaf.css",
-    "main.js": "/van-todo-app/static/js/main.da313db1.js",
-    "static/js/453.2a7da669.chunk.js": "/van-todo-app/static/js/453.2a7da669.chunk.js",
+    "main.js": "/van-todo-app/static/js/main.dc0aca20.js",
+    "static/js/453.ffbcad76.chunk.js": "/van-todo-app/static/js/453.ffbcad76.chunk.js",
     "index.html": "/van-todo-app/index.html",
     "main.14266eaf.css.map": "/van-todo-app/static/css/main.14266eaf.css.map",
-    "main.da313db1.js.map": "/van-todo-app/static/js/main.da313db1.js.map",
-    "453.2a7da669.chunk.js.map": "/van-todo-app/static/js/453.2a7da669.chunk.js.map"
+    "main.dc0aca20.js.map": "/van-todo-app/static/js/main.dc0aca20.js.map",
+    "453.ffbcad76.chunk.js.map": "/van-todo-app/static/js/453.ffbcad76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14266eaf.css",
-    "static/js/main.da313db1.js"
+    "static/js/main.dc0aca20.js"
   ]
 }
