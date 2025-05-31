@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/countryboy11/van-todo-app.git/static/css/main.14266eaf.css",
-    "main.js": "/countryboy11/van-todo-app.git/static/js/main.48848503.js",
-    "static/js/453.2a7da669.chunk.js": "/countryboy11/van-todo-app.git/static/js/453.2a7da669.chunk.js",
-    "index.html": "/countryboy11/van-todo-app.git/index.html",
-    "main.14266eaf.css.map": "/countryboy11/van-todo-app.git/static/css/main.14266eaf.css.map",
-    "main.48848503.js.map": "/countryboy11/van-todo-app.git/static/js/main.48848503.js.map",
-    "453.2a7da669.chunk.js.map": "/countryboy11/van-todo-app.git/static/js/453.2a7da669.chunk.js.map"
+    "main.css": "/van-todo-app/static/css/main.14266eaf.css",
+    "main.js": "/van-todo-app/static/js/main.da313db1.js",
+    "static/js/453.2a7da669.chunk.js": "/van-todo-app/static/js/453.2a7da669.chunk.js",
+    "index.html": "/van-todo-app/index.html",
+    "main.14266eaf.css.map": "/van-todo-app/static/css/main.14266eaf.css.map",
+    "main.da313db1.js.map": "/van-todo-app/static/js/main.da313db1.js.map",
+    "453.2a7da669.chunk.js.map": "/van-todo-app/static/js/453.2a7da669.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14266eaf.css",
-    "static/js/main.48848503.js"
+    "static/js/main.da313db1.js"
   ]
 }
